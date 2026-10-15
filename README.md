@@ -11,7 +11,7 @@ CTRL Browser is a local-first desktop browser. Bookmarks, history, notes, and pr
 | Version | 0.1.0 |
 | Platform | Windows 10 or later, 64-bit |
 | Installer | `CTRLBrowser-setup.exe` |
-| Full application archive | `CTRL Browser-win32-x64-0.1.0.zip` |
+| Full application archive | `CTRL.Browser-win32-x64-0.1.0.zip` |
 | Signature | Not Authenticode signed |
 
 Windows SmartScreen can warn before an unsigned installer runs. That warning is expected for this build.
@@ -28,7 +28,7 @@ SHA-256 for the 0.1.0 files:
 
 ```
 7164AB4303BC7787D53D55DC3A8D220CE15D15D35F8E454140D23D88DDCB955E  CTRLBrowser-setup.exe
-C251354574DF18B831740E52BDF74B03E2F379AF8C14E122E687852081B1249E  CTRL Browser-win32-x64-0.1.0.zip
+C251354574DF18B831740E52BDF74B03E2F379AF8C14E122E687852081B1249E  CTRL.Browser-win32-x64-0.1.0.zip
 ```
 
 ## Install
@@ -37,7 +37,7 @@ C251354574DF18B831740E52BDF74B03E2F379AF8C14E122E687852081B1249E  CTRL Browser-w
 2. Run it. The installer is per-user and does not ask for administrator rights.
 3. Open CTRL Browser from the Start menu.
 
-The zip is the full packaged application folder, not a single-file portable program. Extract the whole archive and run `CTRL Browser.exe` from inside that folder. Copying only the executable will not start the browser.
+The zip on the release is named `CTRL.Browser-win32-x64-0.1.0.zip`. It is the full packaged application folder, not a single-file portable program. Extract the whole archive and run `CTRL Browser.exe` from inside that folder. Copying only the executable will not start the browser.
 
 ## First launch
 
