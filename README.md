@@ -1,5 +1,9 @@
 # CTRL Browser
 
+<p align="center">
+  <img src="assets/ctrl-browser-logo.png" alt="CTRL Browser" width="360">
+</p>
+
 CTRL Browser is a local-first desktop browser for Windows. Bookmarks, history, notes, and preferences stay on this device.
 
 [![release](https://img.shields.io/github/v/release/shahil5z/ctrl-browser-releases)](https://github.com/shahil5z/ctrl-browser-releases/releases/latest)
