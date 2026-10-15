@@ -1,0 +1,5 @@
+*.exe
+*.zip
+*.nupkg
+.DS_Store
+Thumbs.db
