@@ -29,4 +29,5 @@ Download the latest Windows release from [GitHub Releases](https://github.com/sh
 
 ## License
 
-No license has been selected.
+CTRL Browser is proprietary software.  
+See the [LICENSE](LICENSE) file for details.
