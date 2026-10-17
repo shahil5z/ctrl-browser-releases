@@ -37,7 +37,7 @@ The source code lives in a separate private repository and is not included here.
 | File | What it is |
 |---|---|
 | `CTRLBrowser-setup.exe` | Installer (recommended). Installs for the current user only. |
-| `CTRL Browser-win32-x64-<version>.zip` | Portable version. Extract the folder and run `CTRL Browser.exe`. |
+| `CTRL Browser-win32-x64-[version].zip` | Portable version. Extract the folder and run `CTRL Browser.exe`. |
 
 Both files are attached to every release on the [Releases](https://github.com/shahil5z/ctrl-browser-releases/releases) page, along with their SHA-256 checksums.
 
