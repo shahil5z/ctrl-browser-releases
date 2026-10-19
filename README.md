@@ -37,7 +37,8 @@ The source code lives in a separate private repository and is not included here.
 | File | What it is |
 |---|---|
 | `CTRLBrowser-setup.exe` | Installer (recommended). Installs for the current user only. |
-| `CTRL Browser-win32-x64-[version].zip` | Portable version. Extract the folder and run `CTRL Browser.exe`. |
+| `CTRL.Browser-win32-x64-[version].zip` | Portable version. Extract the folder and run `CTRL Browser.exe`. |
+| `updates.json` | Version and SHA-256 checksum of the installer. CTRL Browser reads this when you check for updates. |
 
 Both files are attached to every release on the [Releases](https://github.com/shahil5z/ctrl-browser-releases/releases) page, along with their SHA-256 checksums.
 
@@ -58,6 +59,12 @@ Run this in PowerShell and compare the result with the SHA-256 value in the rele
 ```powershell
 Get-FileHash .\CTRLBrowser-setup.exe -Algorithm SHA256
 ```
+
+The installer checksum for 0.1.0 is `7164AB4303BC7787D53D55DC3A8D220CE15D15D35F8E454140D23D88DDCB955E`.
+
+## Updates
+
+[updates.json](https://github.com/shahil5z/ctrl-browser-releases/releases/latest/download/updates.json) is published with every release. Check for updates in CTRL Browser reads that file, then downloads `CTRLBrowser-setup.exe` only when the checksum matches.
 
 ## Features
 
