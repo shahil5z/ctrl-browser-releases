@@ -2,6 +2,6 @@
   "arch": "x64",
   "artifact": "CTRLBrowser-setup.exe",
   "platform": "win32",
-  "sha256": "beeae551fd6acfaab21ad018e055e9c1db2b9429f3f0802a9bb5cd5cf68a9d4c",
-  "version": "0.1.14"
+  "sha256": "bac5da2270cfa687333a87ffdbbe9238d1eb6d982c958caa924df7439edb6326",
+  "version": "0.1.15"
 }
