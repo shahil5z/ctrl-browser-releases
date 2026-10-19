@@ -60,7 +60,7 @@ Run this in PowerShell and compare the result with the SHA-256 value in the rele
 Get-FileHash .\CTRLBrowser-setup.exe -Algorithm SHA256
 ```
 
-The installer checksum for 0.1.1 is `E2805550577CB7F74BF304ED4C60936CB072BE1F64ADD4C5611EADC3C568D37E`.
+The installer checksum for 0.1.2 is `A416F9467CB6E59809AC0A441215152C59AF2E5E3F6E832B4095E1F5AE3EDCBA`.
 
 ## Updates
 
