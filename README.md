@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/shahil5z/ctrl-browser-releases/releases/latest"><img src="https://img.shields.io/github/v/release/shahil5z/ctrl-browser-releases" alt="Latest release"></a>
-  <a href="https://github.com/shahil5z/ctrl-browser-releases/releases/latest"><img src="https://img.shields.io/github/release-date/shahil5z/ctrl-browser-releases" alt="Release date"></a>
+  <a href="https://github.com/shahil5z/ctrl-browser-releases/releases/latest"><img src="https://img.shields.io/badge/release%20date-15%20Oct%202026-green" alt="Release date"></a>
   <a href="https://github.com/shahil5z/ctrl-browser-releases/releases/latest"><img src="https://img.shields.io/badge/platform-Windows%2010%2B%20x64-0078D4" alt="Platform"></a>
   <a href="https://ctrl-browser.vercel.app"><img src="https://img.shields.io/badge/website-ctrl--browser.vercel.app-111111" alt="Website"></a>
 </p>
@@ -28,43 +28,9 @@
 
 ## About this repository
 
-This repository contains the official Windows builds of CTRL Browser: the installer, release notes and checksums.
+This repository contains the official Windows builds of CTRL Browser: the installer and release notes.
 
 The source code lives in a separate private repository and is not included here.
-
-## Download
-
-| File | What it is |
-|---|---|
-| `CTRLBrowser-setup.exe` | Installer (recommended). Installs for the current user only. |
-| `CTRL.Browser-win32-x64-[version].zip` | Portable version. Extract the folder and run `CTRL Browser.exe`. |
-| `updates.json` | Version and SHA-256 checksum of the installer. CTRL Browser reads this when you check for updates. |
-
-Both files are attached to every release on the [Releases](https://github.com/shahil5z/ctrl-browser-releases/releases) page, along with their SHA-256 checksums.
-
-## Installation
-
-1. Download `CTRLBrowser-setup.exe` from the [latest release](https://github.com/shahil5z/ctrl-browser-releases/releases/latest).
-2. Run the installer. You do not need administrator rights.
-3. Open CTRL Browser from the Start menu.
-
-**Requirements:** Windows 10 or later, 64-bit.
-
-**About the SmartScreen warning:** the current builds are not code-signed yet, so Windows SmartScreen may warn you the first time you run the installer. Check the file hash (see below), then click "More info" and "Run anyway".
-
-## Checking your download
-
-Run this in PowerShell and compare the result with the SHA-256 value in the release notes:
-
-```powershell
-Get-FileHash .\CTRLBrowser-setup.exe -Algorithm SHA256
-```
-
-The installer checksum for 0.1.15 is `BAC5DA2270CFA687333A87FFDBBE9238D1EB6D982C958CAA924DF7439EDB6326`.
-
-## Updates
-
-[updates.json](https://github.com/shahil5z/ctrl-browser-releases/releases/latest/download/updates.json) is published with every release. Check for updates in CTRL Browser reads that file, then downloads `CTRLBrowser-setup.exe` only when the checksum matches.
 
 ## Features
 
@@ -104,6 +70,16 @@ Please note: private tabs and tracker blocking do not make you anonymous. CTRL B
 | Security | Sandboxed renderer, context isolation, strict Content Security Policy, every IPC message validated at runtime with Zod |
 | Testing | Vitest unit and integration tests, packaged smoke tests, type checking and linting before each release |
 | Packaging | Electron Forge, Squirrel.Windows installer, release files published with checksums |
+
+## Installation
+
+1. Download `CTRLBrowser-setup.exe` from the [latest release](https://github.com/shahil5z/ctrl-browser-releases/releases/latest).
+2. Run the installer. You do not need administrator rights.
+3. Open CTRL Browser from the Start menu.
+
+**Requirements:** Windows 10 or later, 64-bit.
+
+**About the SmartScreen warning:** the current builds are not code-signed yet, so Windows SmartScreen may warn you the first time you run the installer. Check the file hash (see below), then click "More info" and "Run anyway".
 
 ## Release notes
 
