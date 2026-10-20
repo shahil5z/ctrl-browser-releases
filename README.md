@@ -118,7 +118,7 @@ Found a bug or have an idea? Open an issue on [GitHub Issues](https://github.com
 
 Designed and developed by **Shohrab Haque Shahil**
 
-[GitHub](https://github.com/shahil5z) | [LinkedIn](https://www.linkedin.com/in/shohrab-haque) | [Website](https://shahil-personal.vercel.app)
+[LinkedIn](https://www.linkedin.com/in/shohrab-haque) | [Website](https://shahil-personal.vercel.app)
 
 ## License
 
